@@ -1,0 +1,116 @@
+---Testes no MyDB---copiar e colar
+
+insert "Pedro augusto","rua 8,333","novo horizonte","cachoeira","mg",(38)9999-1111,"pedro@gmail.com";
+
+insert "Lidio farley","rua 3,222","centro","Montes claros","mg",(38)9999-2222,"lidio@gmail.com";
+
+insert "Anderson maycon","rua 4,11","centro","Montes claros","mg",(38)9999-3333,"anderson@gmail.com";
+
+insert "Gabriel Viana","rua maria ,100","panorama","Montes claros","mg",(38)9999-4444,"gabriel@gmail.com";
+
+insert "Keline Balieiro","rua B, 111","planalto","Montes claros","mg",(38)9999-5555,"keline@gmail.com";
+
+insert "Endi Daniel","rua T, 222","centro","Montes claros","mg",(38)9999-6666,"endi@gmail.com";
+
+select *;
+
+select * order by nome DESC;
+
+select * order by nome ASC;
+
+select * where estado="mg" order by nome DESC;
+
+select nome,telefone where cidade="Montes claros";
+
+select nome,telefone,cidade;
+
+update estado="sp" where chave=4;
+
+update estado="mg" where nome="Gabriel Viana";
+
+update telefone=(38)2222-1122 where chave=2;
+
+
+delete chave=4;
+delete nome="Gabriel Viana";
+
+AGORA EXEMPLOS DETECÇÃO DE ERROS-------------
+
+Erros na função de insere:::
+
+iNSERIR UM REGISTRO QUE O NOME JÁ EXISTE
+
+insert "Endi Daniel","rua T, 222","centro","Montes claros","mg",(38)9999-6666,"endi@gmail.com";
+-----
+NOME NULO
+insert "","rua T, 222","centro","Montes claros","mg",(38)9999-6666,"endi@gmail.com";
+------
+FALTAR ASPAS 
+
+insert "Endi Daniel","rua T, 222","centro","Montes claros","mg",(38)9999-6666,"endi@gmail.com;
+------
+Erros na função select:::
+
+CAMPO NÃO EXISTENTE
+
+select nom,tel where estado="mg";
+------
+
+COMANDOS ERRADOS
+
+select * whe estado="mg" order b nome ASC;
+------
+
+FALTAR COMANDOS
+
+select where estado="mg" order b nome ASC;
+------
+
+FALTAR ASPAS QUANDO NECESSÁRIO 	
+
+select * where estado=mg;
+------
+
+FALTAR ;
+
+select * where estado="mg"
+------
+
+Erros na função update:::
+
+NOME NULO
+
+update nome="" where chave=1;
+-----
+
+FALTAR ASPAS QUANDO NECESSÁRIO	
+  
+update nome=Endi where chave=1;
+-----
+
+A CHAVE FOR DIFERENTE DE NOME OU CHAVE
+
+update nome="Endi Daniel" where bairro="centro";
+-----
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

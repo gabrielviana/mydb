@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1386364111 source:c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb\mydb.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"mydb.h"
+
+1386352943 c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb\mydb.h
+	"hash.h"
+	"sbb.h"
+
+1386352943 source:c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"mydb.h"
+
+1386283416 source:c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb\hash.c
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<sys/time.h>
+	"mydb.h"
+
+1386263146 c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb\hash.h
+
+1385927211 c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb\tipos.h
+
+1386089293 c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb\sbb.h
+
+1386156919 source:c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb\sbb.c
+	<sys/time.h>
+	<stdlib.h>
+	<stdio.h>
+	"sbb.h"
+
+1386283416 source:c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb - 8\hash.c
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<sys/time.h>
+	"mydb.h"
+
+1386244466 c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb - 8\mydb.h
+	"hash.h"
+	"sbb.h"
+
+1386263146 c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb - 8\hash.h
+
+1386089293 c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb - 8\sbb.h
+
+1386262490 source:c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb - 8\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"mydb.h"
+
+1386282937 source:c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb - 8\mydb.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"mydb.h"
+
+1386156919 source:c:\g a b r i e l - geral\ciência da computação - ifnmg\2º periodo\aeds ii\mydb\mydb - 8\sbb.c
+	<sys/time.h>
+	<stdlib.h>
+	<stdio.h>
+	"sbb.h"
+
