@@ -6,7 +6,7 @@ insert "Lidio farley","rua 3,222","centro","Montes claros","mg",(38)9999-2222,"l
 
 insert "Anderson maycon","rua 4,11","centro","Montes claros","mg",(38)9999-3333,"anderson@gmail.com";
 
-insert "Gabriel Viana","rua maria ,100","panorama","Montes claros","mg",(38)9999-4444,"gabriel@gmail.com";
+insert "Gabriel Viana","rua s ,100","futurama","Montes claros","mg",(38)9999-4444,"gabriel@gmail.com";
 
 insert "Keline Balieiro","rua B, 111","planalto","Montes claros","mg",(38)9999-5555,"keline@gmail.com";
 
